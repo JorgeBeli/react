@@ -1,3 +1,5 @@
+import CartWidget from './CartWidget'
+
 const navbar = () =>{
     return (
         <nav>
@@ -13,8 +15,7 @@ const navbar = () =>{
             </div>
             <div className='options__nav-right'>
                 <ul>
-                    <li><a href='#'>Register</a></li>
-                    <li><a href='#'>My Cart</a></li>
+                    <li><a href='#'><CartWidget/></a></li>
                     <li><a href='#'><i className="fa-solid fa-user"></i></a></li>
                 </ul>
             </div>

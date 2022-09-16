@@ -1,5 +1,6 @@
 import './App.css';
 import Navbar from './components/Navbar';
+import ItemListContainer from './components/ItemListContainer';
 
 function App() {
   return (
@@ -7,6 +8,9 @@ function App() {
       <header className='navbar__wraper'>
         <Navbar/>
       </header>
+      <main>
+        <ItemListContainer greeting={'Our Products'}/>
+      </main>
     </>
   );
 }
